@@ -1,5 +1,5 @@
 class Airport {
-  constructor (name, planes){
+  constructor (name){
       this.name = name
       this.planes = []
   }

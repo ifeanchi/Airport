@@ -1,6 +1,9 @@
-class Passenger {
-    constructor (name){
-        this.name = name
+const Person = require('./Person')
+
+class Passenger extends Person {
+    constructor (name, ticketNum){
+    super (name)
+    this.ticketNum = ticketNum
     }
 }
 
